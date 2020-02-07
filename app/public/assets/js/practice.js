@@ -9,4 +9,8 @@ $(document).ready(function () {
         $("h1").animate({ fontSize: "30px" }, "slow");
     });
 
-})
+    $("#change-header").on("click", (event) => {
+        $("h1").text("Stephen is the coolest");
+    });
+
+});
